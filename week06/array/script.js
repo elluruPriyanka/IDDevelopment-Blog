@@ -12,4 +12,3 @@ for (let i = 0; i < 5; ++i) {
     //add the div to the body of the html
     document.body.appendChild(newDiv);
 }
-
