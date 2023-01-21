@@ -107,14 +107,30 @@ height: auto;
   -Flex wrap allows items to fit into a new row if there is not enough space
 - I learnt how to use github and how to commit my work to github
   Important commands
-  ● git clone and git init: set up new repositories
-  ● git add, git status, and git commit: used when committing new
-  versions of files
-  ● git log: view a list of old commits
-  ● git mv and git rm: move and remove files tracked by Git
-  ● git push and git pull: synchronize commits with remote repositories
+
+  - git clone and git init: set up new repositories
+  - git add, git status, and git commit: used when committing new
+    versions of files
+  - git log: view a list of old commits
+  - git mv and git rm: move and remove files tracked by Git
+  - git push and git pull: synchronize commits with remote repositories
 
 - Wireframes are used to tell the flow of how a site is and the information flows
 
 Week 5
 Javascript
+
+Week 6
+DOM - document object model
+
+- As a browser loads a webpage, it creates a model of that page and its called a DOM Tree
+- Locate the node that represents the element you want to work with
+- Use its text content, child elements and attributes
+- Accessing elements: getElementById(); querySelector();
+- Parent node
+
+Javascript basics
+
+- A variable is a named container for a value
+- console.log(variable)
+- Data types : numbers, strings and boolean
