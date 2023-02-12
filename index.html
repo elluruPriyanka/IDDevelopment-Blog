@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css" />
   <head>
     <h1>My Development blog</h1>
-    <h2>Week 1</h2>
+    <h2 class="title">Week 1 </h2>
   </head>
   <body>
     <ul>
@@ -23,7 +25,7 @@
 
 
     </ul>
-    <h2>Week 2</h2>
+    <h2 class="title">Week 2</h2>
     <ul>
       <li>Name flies using lower-case</li>
       <li>Name files with intent and meaning</li>
@@ -44,26 +46,228 @@
       <li>we can adjust font size. font style and many more</li>
       <li>Margin is for the pixel boundary outside the box</li>
       <li>Padding  is for the pixel boundary inside the box</li>
-
     </ul>
+    <h2 class="title">Week 3</h2>
     <ul>
-      <li> The form tag is used to send the url to send form data to</li>
-      <li> the input tag to need text,date, color</li>
-      <li> vallidations are required to</li>
-      <li>  grouping selectors : h1,h2</li>
-      <li></li>
+      <li>The form tag is used to send the url to send form data to</li>
+      <li>The input tag to need text,date, color</li>
+      <li>Vallidations are required to ensure input is not empty by using "required"</li>
+      <li>Grouping selectors : h1,h2</li>
+      <li>Some basic input categories are single line text, multiple line text and selection</li>
+      <li>Input fields examples:email,Url, telephone,number,date,time</li>
+      <li>Descendant selector example: section p{...} or .container h1{..} , hence used to identify certain parts of code</li>
+      <li>Inheritance meaning css styles can be inherited from parent elements</li>
+      <li>Specificity determines how browsers decide which css rule takes precedence</li>
+      <li>Universal(\*), type(p), .class(.example), id(#example)</li>
+      <li>Cascade: style declarations cascade and are read from top to bottom</li>
+      <li>!important keyword overrides source order and specificity and its added just before the end of rule declaration before semicolon;</li>
+      <li>General rule:
+        selector{
+        property:value;
+        another Property: value;
+        }</li>
+        <li>Background property can set a background</li>
+        <li>Assign a unique name to HTML element as an id should not repeated</li>
+        <li>Unlike id,classes can be reused over and over</li>
+        <li>Media Query @media using min-width and max width</li>
+        <li>Flexbox container is the parent of the flex item</li>
+        <li>Wireframes are not visual design, typography, iconography or photography</li>
+        <li>Wireframes are not visual design, typography, iconography or photography</li>
+        <li>Wireframes can generate ideas, aids discussion and show content hierarchy and establish key functionality</li>
+        <li>Static Wireframe usually quick to create and variety of tools and software but its not responsive</li>
+        <li> Low fidelity wireframes can be created quickly , get out many ideas before committing to one direction, can be a simple sketch with pen and paper</li>
+        <li>Fidelity : The level of detail used to produce a wireframe</li>
+        <li> High fidelity wireframes contains more details than the low fidelity and closer representation of final layout but stakeholders might confuse with the designs</li>
+        <li>Hyperlink: using this <a> and use target="\_blank" to open in new window or tab</li>
+        <li>Image: use <img src > and alt attribute needs to be present and also can use title attribute to display a string of text upon mouse hover</li>
+        <li>File names should be lower case and name files with intent and meaning</li>
+        <ul>Positioning
+          <li> Relative- moves elements around around relative by nudging boxes around</li>
+          <li>Absolute Position -offset is relative to the entire browser window instead of the original position of the element</li>
+          <li>Fixed position- fixed elements do not scoll with the rest of the page</li>
+          <li>z- index- lets you control the depth of elements on the page</li>
+          <li>z-index- work ONLY on elements with a
+            position property set to absolute, fixed,
+            or relative</li>
+          </ul>
+        </ul>
+      <h2>Week 4</h2>
+      <h4>Reasons for Responsive images</h4>
+      <ul>
+        <li>Auto resize based on screen size</li>
+        <li>Better Performance( Load higher resolution images only when needed)</li>
+        <li>Provide better design control depending on device</li>
+        <li>(scale up and down)
+          Example:
+          .responsive-img(
+          width: 100%;
+          height: auto;
+          )</li>
+          <li>To make images never larger than original size
+            use (max-width: 100% property height auto)</li>
+            <li>For different resolutions we use srcset</li>
+            <li>To fit images to a box use (background-size: cover)</li>
+            <ul>
+              Important commands:
+              <li>Git clone and git init: set up new repositories</li>
+              <li>Git add, git status, and git commit: used when committing new
+                versions of files</li>
+              <li>Git log: view a list of old commits</li>
+              <li>Git mv and git rm: move and remove files tracked by Git</li>
+              <li>git push and git pull: synchronize commits with remote repositories</li>
+            </ul>
+      </ul>
+      <h2 class="title">Week 5 </h2>
+      <ul>
 
+      </ul>
+      <li>
 
-
-
-
-
-    </ul>
-
-
-
-  
+      </li>
+      <h2 class="title">Week 6</h2>
+      <h4>DOM - document object model</h4>
+      <ul>
+        <li>As a browser loads a webpage, it creates a model of that page and its called a DOM Tree</li>
+        <li>Locate the node that represents the element you want to work with</li>
+        <li>Use its text content, child elements and attributes</li>
+        <li>Accessing elements: getElementById(); querySelector();</li>
+        Javascript basics
+        <li>A variable is a named container for a value</li>
+        <li>console.log(variable)</li>
+        <li>Data types : numbers, strings and boolean</li>
+        <li>Template literals are enclosed by the back-tick(``)</li>
+        <li>Substitution using template string is written like console.log(`My age is ${age}`);</li>
+        <li>'8'=== 8 returns false( not same data type)</li>
+        <li>Logical operaters , '===' ,'!=='.'<' , '>=', '<='</li>
+        <li>Array helps to oragnise many variables into a container make lists/groups/collections(Names,Numbers)</li>
+        <li>Javascript Arrays can store mixed data types</li>
+        <li>Associative array use strings as the index and it's known as key</li>
+        <li>The default value for any varibale is undefined and it evaluates to false</li>
+        <li>function say Hello(){
+          document.write('Hello');
+          }
+          sayHello();</li>
+        <li>Js objects:
+          Objects group together a set of variable and functions to create a model
+          </li>
+          <li>Creating objects:
+            let hotel = {
+            name: 'Raffles Hotel',
+            rooms: 100,
+            booked: 24,
+            gym: true,
+            roomTypes:
+            ['twin','suite','delux'],
+            checkAvailability: function() {
+            return this.rooms – this.booked;
+            }
+            };</li>
+            <li>Assessing objects:
+              let hotelName = hotel.name;
+              let roomsFree = hotel.checkAvailability();</li>
+            <li>Updating an Object
+              hotel.name = 'Favcho Royale Hotel';</li>
+              <li>Function based objects:
+                function Hotel(name, rooms, booked){
+                this.name = name;
+                this.rooms = rooms;
+                this.booked = booked;
+                this.checkAvailability = function() {
+                return this.rooms – this.booked;
+                };
+                }</li>
+      </ul>
+      <h2 class="title">Week 7</h2>
+      Handling events
+      <ul>
+        <li>Interactions create events which trigger code and it responds to users</li>
+        <li> UI events occur when a user interacts with the browser's user interface rather than the webpage
+            Eg. load, unload, error resize, scroll</li>
+        <li>Keyboard events occur when a user interacts with the keyboard
+            Eg. keydown,keyup,keypress</li>
+        <li>Mouse events occur when user interacts with a mouse
+            Eg. click,dblclick, mousedown, mouseup, mousemove , mouseover, mouseout</li>
+        <li>Focus events occur when an element gains or loses focus
+            Eg. focus, blur</li>
+          <li>eg> elemnet.addEventListener('event',functionName,[Boolean]);</li>
+          <li>Focus- when HTML element has the focus</li>
+          <li>eg. form type</li>
+          <form> 
+            <input type="text" name="textUsername" id ="textUsername"></input>
+            <input type="radio" name="rdoFlavour" value="vanillia">Vanilla
+            <input type="radio" name="rdoFlavour" value="chocolate">chocolate
+            <input type="radio" name="rdoFlavour" value="strawberry">Strawberry
+            <input type ="checkbox" name ="chkStyle" value="cone">Cone
+            <input type ="checkbox" name ="chkStyle" value="wafer">Wafer
+            <input type ="checkbox" name ="chkStyle" value="bread">Bread
+          </form>
+          <select name="locations" id="locations">
+            <option value="north-yishun">Yishun</option>
+            <option value="east-changi">Changi</option>
+            <option value="west-clementi">Clementi</option>
+          </select>
+          <button type="submit">Submit</button>
+          <button type="button">Click me for fun</button>
+         <h2>Local Storage</h2>
+         <li>HelloWeb storage (or HTML5 storage) lets you store data
+          in the browser.The data it stores can only be accessed by the
+          domain that set the data.</li>
+          <li>Two types : local and session storage</li>
+          <li>local data is stored when the tab is closed while session is not</li>
+          <li>All open windows /tabs can access the data but session cannot</li>
+          <li>JSON data is made up of keys and values:</li>
+          <li>Key shoudl be placed in double quotes</li>
+          <li>Convert a Javascript object to a string:
+            JSON.stringify();
+          </li>
+          <li>Convert a string to a Javascript object:
+            JSON.parse();
+          </li>
+          <li>To clear storage:
+            Use localStorage.clear();
+             localStorage.removeItem(<item key>);
+          </li>
+          <form id="myFrm">
+            <input type="text" placeholder="name" id="txtName" />
+            <input type="submit" />
+          </form>
+          <h1>Name: <span id="myName">.....</span></h1>
+          <h2 class="title">Week 8</h2>
+          jquery
+          <ul>
+            <li>Place scripts before closing the body tag</li>
+            <li>Two ways to select: jquery('li.hot);      $('li.hot');</li>
+            <li>JQuery can select or find elements, update their content / size/ visibility , simplify event handling </li>
+            <li>To change content: 
+              Use the html() action
+              $('#two').html('<a>Goodbye World!</a>');
+            </li>
+            <li>Traversing means after selecting an element we use prev() , next() , parent() , children()</li>
+            <li>Use clone() method to make a copy of selected elements</li>
+            <li>Take note: If your selector returns more than 1 element, your modification will affect all of them</li>
+            <li>We can use the hasClass() to check if a HTML elemenyt has the specified class</li>
+            <h2>API</h2>
+            <li>Ajax is a technique for loading data into part of a page without having to refresh the page</li>
+            <li>Ajax create an XMLHTTP request and then creates a callback function and opens a request and then sends it </li>
+          </ul>
+          <h2 class="title">Week 14</h2>
+          <li>Lottie animations are used for visual purposes</li>
+          <li>Example below:</li>
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_8hsz2jbe.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+      <button class="collapsible">Week 1</button>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <button class="collapsible">Week 2</button>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <button class="collapsible">Week 3</button>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <script src="script.js"></script>
   </body>
 </html>
-
 

@@ -106,15 +106,13 @@ height: auto;
 - To fit images to a box use (background-size: cover)
   -Flex wrap allows items to fit into a new row if there is not enough space
 - I learnt how to use github and how to commit my work to github
-  Important commands
-
+  Important commands:
   - git clone and git init: set up new repositories
   - git add, git status, and git commit: used when committing new
     versions of files
   - git log: view a list of old commits
   - git mv and git rm: move and remove files tracked by Git
   - git push and git pull: synchronize commits with remote repositories
-
 - Wireframes are used to tell the flow of how a site is and the information flows
 
 Week 5
@@ -128,9 +126,95 @@ DOM - document object model
 - Use its text content, child elements and attributes
 - Accessing elements: getElementById(); querySelector();
 - Parent node
+-
 
 Javascript basics
 
 - A variable is a named container for a value
 - console.log(variable)
 - Data types : numbers, strings and boolean
+- Template literals are enclosed by the back-tick(``)
+- Substitution using template string is written like console.log(`My age is ${age}`);
+- '8'=== 8 returns false( not same data type)
+- Logical operaters , '===' ,'!=='.'<' , '>=', '<='
+- To round off numbers we use Math.round(x);
+- Each time we perform a loop action, it is known as an iteration.
+- for (let i = 0; i < 10 ; i ++)
+- Array helps to oragnise many variables into a container make lists/groups/collections(Names,Numbers)
+- Javascript Arrays can store mixed data types
+- Associative array use strings as the index and it's known as key
+- Functions let you group a series of statements together to perform a specific task
+- The default value for any varibale is undefined and it evaluates to false
+- function say Hello(){
+  document.write('Hello');
+  }
+  sayHello();
+
+Js objects
+
+- Objects group together a set of variable and functions to create a model
+
+Creating objects
+let hotel = {
+name: 'Raffles Hotel',
+rooms: 100,
+booked: 24,
+gym: true,
+roomTypes:
+['twin','suite','delux'],
+checkAvailability: function() {
+return this.rooms – this.booked;
+}
+};
+
+Assessing objects
+let hotelName = hotel.name;
+let roomsFree = hotel.checkAvailability();
+
+Updating an Object
+hotel.name = 'Favcho Royale Hotel';
+
+Function based objects
+function Hotel(name, rooms, booked){
+this.name = name;
+this.rooms = rooms;
+this.booked = booked;
+this.checkAvailability = function() {
+return this.rooms – this.booked;
+};
+}
+
+Literal objects
+
+- Has no constructors
+- Cannot be inherited
+- Best used for “one off” objects
+  where only one copy will exist
+- A colon separates the key/value pair
+- For global or configuration objects
+  like 'game settings'
+
+Function-based objects
+
+- Has a constructor
+- Can be inherited (but very messy, out of
+  scope here)
+- Best use for stuff that you want to
+  instantiate again and again)
+- The this keyword is used instead of the
+  object name
+- If you have lots of objects with similar
+  functionality
+
+Week 7
+Handling events
+
+- Interactions create events which trigger code and it responds to users
+- UI events occur when a user interacts with the browser's user interface rather than the webpage
+  Eg. load, unload, error resize, scroll
+- Keyboard events occur when a user interacts with the keyboard
+  Eg. keydown,keyup,keypress
+- Mouse events occur when user interacts with a mouse
+  Eg. click,dblclick,mousedown,mouseup,mousemove,mouseover,mouseout
+- Focus events occur when an element gains or loses focus
+  Eg. focus, blur
