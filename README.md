@@ -218,3 +218,46 @@ Handling events
   Eg. click,dblclick,mousedown,mouseup,mousemove,mouseover,mouseout
 - Focus events occur when an element gains or loses focus
   Eg. focus, blur
+
+Week 8
+Jquery
+
+- Place scripts before closing the body tag
+- Two ways to select: jquery('li.hot); $('li.hot');
+- JQuery can select or find elements, update their content / size/ visibility , simplify event handling
+- Traversing means after selecting an element we use prev() , next() , parent() , children()
+  API
+- Ajax is a technique for loading data into part of a page without having to refresh the page
+- Ajax create an XMLHTTP request and then creates a callback function and opens a request and then sends it
+
+Week 9
+Bootstrap
+
+- Uses FlexBox Grid for the layout
+- Rem for measurements
+- Has device breakpoints to accommodate for different media sizes
+- The Bootstrap Grid system helps you to create your layout and
+  easily build a responsive website
+
+Week 12
+RestDB
+
+- Sql: Used for accessing and managing the databases
+- NoSql: Provides a mechanism for storage and retrieval of unstructured data
+- HTTP methods:
+  Get
+  POST
+  GET
+  DELETE
+
+Week 13
+
+- We learnt about the best practices and common mistakes students make
+
+Week 14
+
+- Lottie Animations
+- Lottie animations are used for many purposes:
+- Contact pages
+- Show the page is loading
+- Visual appeal
